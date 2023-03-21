@@ -1,0 +1,41 @@
+.container {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px; }
+  .container form {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .container form label {
+      margin-right: 10px; }
+    .container form input[type="text"] {
+      flex: 1; }
+    .container form button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer; }
+      .container form button[type="submit"]:hover {
+        background-color: #3e8e41; }
+  .container #results {
+    margin-top: 20px; }
+    .container #results .result {
+      margin-bottom: 10px;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px 0, rgba(0, 0, 0, 0.2) 1px 1px 2px 0;
+      border-radius: 5px;
+      border: 1px solid #e0e0e0;
+      background: #e7ebf0;
+      padding: 10px; }
+      .container #results .result a {
+        color: #000; }
+        .container #results .result a:hover {
+          text-decoration: underline; }
+      .container #results .result .name {
+        font-weight: bold; }
+      .container #results .result .description {
+        margin-top: 5px;
+        font-style: italic; }
+    .container #results .no-results {
+      font-style: italic; }
